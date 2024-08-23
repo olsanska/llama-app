@@ -1,0 +1,141 @@
+{
+    "linter": {
+      "enabled": true,
+      "rules": {
+        "a11y": {
+          "noAutofocus": "error",
+          "noBlankTarget": "error",
+          "noPositiveTabindex": "error",
+          "useAltText": "error",
+          "useAnchorContent": "error",
+          "useButtonType": "error",
+          "useKeyWithClickEvents": "off",
+          "useKeyWithMouseEvents": "off",
+          "useValidAnchor": "error",
+          "noSvgWithoutTitle": "off"
+        },
+        "complexity": {
+          "noExtraBooleanCast": "error",
+          "noMultipleSpacesInRegularExpressionLiterals": "error",
+          "noUselessFragments": "error",
+          "useFlatMap": "warn",
+          "useOptionalChain": "off",
+          "useSimplifiedLogicExpression": "error",
+          "noForEach": "off"
+        },
+        "correctness": {
+          "noChildrenProp": "error",
+          "noConstAssign": "error",
+          "noEmptyPattern": "off",
+          "noNewSymbol": "off",
+          "noRenderReturnValue": "error",
+          "noUndeclaredVariables": "off",
+          "noUnnecessaryContinue": "error",
+          "noUnreachable": "error",
+          "noUnusedVariables": "warn",
+          "noVoidElementsWithChildren": "error",
+          "useValidForDirection": "error",
+          "noUnusedImports": "warn"
+        },
+        "performance": {
+          "noDelete": "error"
+        },
+        "security": {
+          "noDangerouslySetInnerHtml": "off",
+          "noDangerouslySetInnerHtmlWithChildren": "off"
+        },
+        "style": {
+          "noArguments": "error",
+          "noImplicitBoolean": "off",
+          "noNegationElse": "off",
+          "noShoutyConstants": "off",
+          "noUnusedTemplateLiteral": "error",
+          "useBlockStatements": "error",
+          "useFragmentSyntax": "error",
+          "useSelfClosingElements": "error",
+          "useShorthandArrayType": "off",
+          "useSingleCaseStatement": "off",
+          "useSingleVarDeclarator": "error",
+          "useTemplate": "warn",
+          "useWhile": "warn",
+          "useConst": "off",
+          "useImportType": "off",
+          "useNumberNamespace": "off"
+        },
+        "suspicious": {
+          "noArrayIndexKey": "warn",
+          "noAsyncPromiseExecutor": "error",
+          "noCatchAssign": "error",
+          "noCommentText": "error",
+          "noCompareNegZero": "error",
+          "noDebugger": "warn",
+          "noDoubleEquals": "error",
+          "noDuplicateParameters": "error",
+          "noExplicitAny": "off",
+          "noFunctionAssign": "error",
+          "noImportAssign": "error",
+          "noLabelVar": "error",
+          "noShadowRestrictedNames": "warn",
+          "noSparseArray": "error",
+          "noUnsafeNegation": "error",
+          "useValidTypeof": "error"
+        }
+      },
+      "ignore": [
+        "**/node_modules",
+        "**/public",
+        "**/public/**",
+        "**/public/**/*",
+        "**/.vscode",
+        ".next",
+        ".next/**",
+        ".next/**/*",
+        "next.config.js",
+        "**/tsconfig.json",
+        "biome.json",
+        "**/biome.json",
+        "**/README.md",
+        "**/pnpm-lock.yaml",
+        "**/localhost-key.pem",
+        "**/localhost.pem",
+        "**/.gitignore",
+        "**/readme"
+      ]
+    },
+    "formatter": {
+      "enabled": true,
+      "formatWithErrors": false,
+      "indentStyle": "space",
+      "indentWidth": 2,
+      "lineWidth": 115,
+      "ignore": [
+        "**/node_modules",
+        "**/public",
+        "**/public/**",
+        "**/public/**/*",
+        "**/.vscode",
+        ".next",
+        ".next/**",
+        ".next/**/*",
+        "**/tsconfig.json",
+        "**/README.md",
+        "**/pnpm-lock.yaml",
+        "**/localhost-key.pem",
+        "**/localhost.pem",
+        "**/.gitignore",
+        "**/readme"
+      ]
+    },
+    "javascript": {
+      "formatter": {
+        "semicolons": "asNeeded",
+        "quoteStyle": "single",
+        "jsxQuoteStyle": "single",
+        "indentWidth": 2,
+        "enabled": true,
+        "bracketSpacing": true,
+        "bracketSameLine": true
+      }
+    }
+  }
+  
